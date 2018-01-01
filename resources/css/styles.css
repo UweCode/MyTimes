@@ -4,9 +4,13 @@ body {
 
 header {
   border-bottom: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
-  padding: 10px 40px 10px 20px;
+  padding: 10px 20px;
 }
 
 header img {
@@ -15,30 +19,19 @@ header img {
   margin-left: 10px;
 }
 
-header div {
-  color: MediumAquamarine;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 .logo {
+  color: MediumAquamarine;
   display: flex;
   align-items: center;
-  color: MediumAquamarine;
   flex: 1;
 }
 
 .logo span {
   margin-left: 10px;
+  min-width: 80px;
 }
 
-.nav a {
+header a {
   color: black;
-  margin-right: 10px;
-}
-
-.nav span {
-  display: inline-block;
-      margin-left: 10px;
+  margin-right: 25px;
 }

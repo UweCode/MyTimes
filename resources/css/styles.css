@@ -1,28 +1,44 @@
 body {
-
+  margin: 0;
 }
 
 header {
+  border-bottom: 1px solid black;
   display: flex;
+  align-items: center;
+  padding: 10px 40px 10px 20px;
+}
+
+header img {
+  height: 60px;
+  width: 70px;
+  margin-left: 10px;
+}
+
+header div {
+  color: MediumAquamarine;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
 }
 
-header img {
-  border-right: 1px solid MediumAquamarine;
-  height: 60px;
-  width: 70px;
-}
-
 .logo {
+  display: flex;
+  align-items: center;
   color: MediumAquamarine;
+  flex: 1;
 }
 
-.nav {
+.logo span {
+  margin-left: 10px;
+}
 
+.nav a {
+  color: black;
+  margin-right: 10px;
 }
 
 .nav span {
   display: inline-block;
+      margin-left: 10px;
 }

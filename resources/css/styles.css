@@ -19,19 +19,60 @@ header img {
   margin-left: 10px;
 }
 
+header a {
+  color: black;
+  margin-right: 25px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+div {
+  border: 1px solid black;  <!-- TESTING ONLY !!! -->
+}
+
 .logo {
   color: MediumAquamarine;
   display: flex;
   align-items: center;
   flex: 1;
+  min-width: 260px;
 }
 
 .logo span {
-  margin-left: 10px;
+  margin: 10px;
   min-width: 80px;
 }
 
-header a {
-  color: black;
-  margin-right: 25px;
+.content {
+  display: flex;
+  margin: 0 auto 40px auto;
+  align-items: flex-start;
+  width: 1260px;
+  padding-top: 40px;
+  }
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin-right: 30px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }

@@ -38,6 +38,10 @@ h1 {
   text-align: left;
 }
 
+#mainStoryText {
+  margin-bottom: 60px;
+}
+
 h2 {
   font-family: Georgia;
   font-size: 20px;
@@ -46,10 +50,6 @@ h2 {
 h3 {
   font-family: Georgia;
   font-size: 16px;
-}
-
-div {
-  border: 1px solid black;  <!-- TESTING ONLY !!! -->
 }
 
 p {
@@ -99,8 +99,21 @@ p {
   width: 240px;
 }
 
-.story {
+.subColumns {
+  display: flex;
+  justify-content: space-between;
+}
 
+.subColumn {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 300px;
+}
+
+.subColumnText {
+  height: 250px;
 }
 
 .image {

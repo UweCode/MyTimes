@@ -29,17 +29,18 @@ h1 {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  margin-top: 0;
+  text-align: center;
 }
 
 #mainHeader {
   font-size: 40px;
-  justify-content: flex-start;
-  align-items: flex-start;
+  text-align: left;
 }
 
 h2 {
   font-family: Georgia;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h3 {
@@ -106,10 +107,13 @@ p {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  height: 300px;
+  margin-top: 16px;
 }
 
 #mainStory {
   background-image: url(../images/img-story-main.png);
+  margin-top: 0;
 }
 
 #story1 {

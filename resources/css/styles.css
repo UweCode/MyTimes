@@ -25,15 +25,36 @@ header a {
 }
 
 h1 {
-  font-size: 24px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#mainHeader {
+  font-size: 40px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 h2 {
+  font-family: Georgia;
   font-size: 18px;
+}
+
+h3 {
+  font-family: Georgia;
+  font-size: 16px;
 }
 
 div {
   border: 1px solid black;  <!-- TESTING ONLY !!! -->
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .logo {
@@ -75,4 +96,30 @@ div {
 
 .column.small {
   width: 240px;
+}
+
+.story {
+
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#mainStory {
+  background-image: url(../images/img-story-main.png);
+}
+
+#story1 {
+  background-image: url(../images/img-story-1.png);
+}
+
+#story2 {
+  background-image: url(../images/img-story-2.png);
+}
+
+#story3 {
+  background-image: url(../images/img-story-3.png);
 }

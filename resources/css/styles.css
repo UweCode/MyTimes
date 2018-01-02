@@ -50,6 +50,7 @@ h2 {
 h3 {
   font-family: Georgia;
   font-size: 16px;
+  text-align: center;
 }
 
 p {
@@ -97,6 +98,24 @@ p {
 
 .column.small {
   width: 240px;
+}
+
+.column.small ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column.small ul li {
+  background-color: WhiteSmoke;
+  border-bottom: 1px solid black;
+}
+
+ul li span {
+  color: DimGray;
+  display: block;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 10px 20px;
 }
 
 .subColumns {

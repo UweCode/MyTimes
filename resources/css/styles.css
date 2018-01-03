@@ -183,20 +183,20 @@ footer span {
   padding-right: 30px;
 }
 
-.footerMyTimes {
+#footerMyTimes {
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
 }
 
-.footer {
+#footer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
 }
 
-.footerCopy {
+#footerCopy {
   display: flex;
   justify-content: center;
   margin-top: 0;

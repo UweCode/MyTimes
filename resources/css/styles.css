@@ -159,3 +159,45 @@ ul li span {
 #story3 {
   background-image: url(../images/img-story-3.png);
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  height: 320px;
+  margin: auto;
+}
+
+footer a, footer span {
+  color: black;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer span {
+  padding: 10px;
+}
+
+#pipe {
+  padding-right: 30px;
+}
+
+.footerMyTimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.footerCopy {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}

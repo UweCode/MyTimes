@@ -3,6 +3,7 @@ body {
 }
 
 header {
+  background-color: white;
   border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
@@ -11,6 +12,9 @@ header {
   flex-wrap: nowrap;
   align-items: center;
   padding: 10px 20px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 
 header img {
@@ -22,6 +26,10 @@ header img {
 header a {
   color: black;
   margin-right: 25px;
+}
+
+.rightMargin40 {
+  margin-right: 40px;
 }
 
 h1 {
@@ -39,7 +47,7 @@ h1 {
 }
 
 #mainStoryText {
-  margin-bottom: 60px;
+  margin-bottom: 24px;
 }
 
 h2 {
@@ -77,7 +85,7 @@ p {
   margin: 0 auto 40px auto;
   align-items: flex-start;
   width: 1260px;
-  padding-top: 40px;
+  padding: 110px 10px 0 10px;
   }
 
 .column {
@@ -132,13 +140,13 @@ ul li span {
 }
 
 .subColumnText {
-  height: 250px;
+  height: 200px;
 }
 
 .image {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 300px;
   margin-top: 16px;
 }
@@ -146,6 +154,7 @@ ul li span {
 #mainStory {
   background-image: url(../images/img-story-main.png);
   margin-top: 0;
+  padding-left: 20px;
 }
 
 #story1 {
